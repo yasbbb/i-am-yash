@@ -53,7 +53,7 @@ const experiences: Experience[] = [
   {
       company: "FechAI",
       title: "Co-Founder",
-      image: "finger.png",
+      image: "fech.png",
       date: "Jan 2024 - May 2024",
       location: "Dallas, TX"
   },
@@ -77,7 +77,7 @@ const projects: Project[] = [
   {
       title: "Vigil",
       subtitle: "Mobile Application",
-      image: "liveline.png",
+      image: "vigil.png",
       date: "Apr 2024 - Present",
       description: "Developing an iOS application intended to empower bystanders to live stream videos of police misconduct, cloud caching the videos and using real time location geotagging",
       lable: ""
