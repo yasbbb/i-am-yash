@@ -87,12 +87,12 @@ const projects: Project[] = [
         lable: ""
     },
     {
-        title: "LeNetwork",
-        subtitle: "Neural Network",
-        image: "leburn.jpg",
-        date: "March 2024",
-        description: "Built a recurrent neural network for digit classification using perceptron and linear regression models",
-        lable: "I didnt know what picture to put so instead enjoy 2k14 lebron"
+        title: "Autonomous Drones",
+        subtitle: "Path Planning",
+        image: "drones.jpg",
+        date: "Jan 2023 - April 2023",
+        description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization. Optimized drone’s computer vision capabilities using RANSAC tuning",
+        lable: ""
     }
 ]
 
