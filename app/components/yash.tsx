@@ -36,7 +36,7 @@ const education: Education[] = [
           
           {
               title: "Activities",
-              description: "IB Diploma Recipient, Varsity XC"
+              description: "IB Diploma Recipient, AP Scholar, Varsity XC"
           }
       ]
   },
