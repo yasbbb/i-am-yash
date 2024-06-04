@@ -72,8 +72,8 @@ const experiences: Experience[] = [
 const projects: Project[] = [
     {
         title: "PacmanAI",
-        subtitle: "Game",
-        image: "liveline.png",
+        subtitle: "Interactive Game",
+        image: "pacman.png",
         date: "Apr 2024 - Present",
         description: "Rendition of original Pacman game, using Bayesian networks, hidden Markov Models, and search agents",
         lable: ""
