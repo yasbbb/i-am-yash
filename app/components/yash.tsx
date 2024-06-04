@@ -75,11 +75,11 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
   {
-      title: "LiveLine",
-      subtitle: "Crisis Relief App",
+      title: "Vigil",
+      subtitle: "Mobile Application",
       image: "liveline.png",
       date: "Apr 2024 - Present",
-      description: "iOS application that enables real time video streaming and caching during natural disasters & crisis events to assist in coordinating rescue operations",
+      description: "Developing an iOS application intended to empower bystanders to live stream videos of police misconduct, cloud caching the videos and using real time location geotagging",
       lable: ""
       
   },
