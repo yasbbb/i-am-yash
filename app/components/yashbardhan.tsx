@@ -47,8 +47,8 @@ const experiences: Experience[] = [
         location: "Richardson, TX"
     },
     {
-        company: "Startup",
-        title: "Founding Engineer",
+        company: "FechAI",
+        title: "Co-Founder",
         image: "finger.png",
         date: "Jan 2024 - May 2024",
         location: "Dallas, TX"
@@ -71,11 +71,11 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
     {
-        title: "LiveLine",
-        subtitle: "Crisis Relief App",
+        title: "PacmanAI",
+        subtitle: "Game",
         image: "liveline.png",
         date: "Apr 2024 - Present",
-        description: "iOS application that enables real time video streaming and caching during natural disasters & crisis events to assist in coordinating rescue operations",
+        description: "Rendition of original Pacman game, using Bayesian networks, hidden Markov Models, and search agents",
         lable: ""
     },
     {
