@@ -49,7 +49,7 @@ const experiences: Experience[] = [
     {
         company: "FechAI",
         title: "Co-Founder",
-        image: "finger.png",
+        image: "fech.png",
         date: "Jan 2024 - May 2024",
         location: "Dallas, TX"
     },
@@ -74,7 +74,7 @@ const projects: Project[] = [
         title: "PacmanAI",
         subtitle: "Interactive Game",
         image: "pacman.png",
-        date: "Apr 2024 - Present",
+        date: "March 2024",
         description: "Rendition of original Pacman game, using Bayesian networks, hidden Markov Models, and search agents",
         lable: ""
     },
