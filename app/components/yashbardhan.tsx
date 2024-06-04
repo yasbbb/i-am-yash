@@ -79,11 +79,11 @@ const projects: Project[] = [
         lable: ""
     },
     {
-        title: "Market Momentum",
-        subtitle: "Stock Trader",
-        image: "reddit.jpg",
-        date: "Dec 2023 - Jan 2024",
-        description: "Stock trading algorithm that deploys a paper trading bot using alpaca and reddit api (praw) to analyze sentiments based off r/wallstreetbets comments",
+        title: "Apple Stock Data",
+        subtitle: "Stock Performance Analysis",
+        image: "apple.png",
+        date: "March 2023",
+        description: "Developed a stock price prediction analysis of AAPL, GOOG, and MSFT stock from 2015-2023 using forecasting techniques (Holt’s Winter Forecast achieved lowest MAE of 7.57)",
         lable: ""
     },
     {
