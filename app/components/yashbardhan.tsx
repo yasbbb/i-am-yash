@@ -32,7 +32,7 @@ const education: Education[] = [
             
             {
                 title: "Activities",
-                description: "IB Diploma Recipient, Varsity XC"
+                description: "IB Diploma Recipient, AP Scholar, Varsity XC"
             }
         ]
     },
@@ -49,7 +49,7 @@ const experiences: Experience[] = [
     {
         company: "FechAI",
         title: "Co-Founder",
-        image: "fech.png",
+        image: "fech2.png",
         date: "Jan 2024 - May 2024",
         location: "Dallas, TX"
     },
