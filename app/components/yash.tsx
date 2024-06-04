@@ -51,8 +51,8 @@ const experiences: Experience[] = [
       location: "Richardson, TX"
   },
   {
-      company: "Startup",
-      title: "Founding Engineer",
+      company: "FechAI",
+      title: "Co-Founder",
       image: "finger.png",
       date: "Jan 2024 - May 2024",
       location: "Dallas, TX"
