@@ -10,7 +10,7 @@ const ProjectCard = ({ title, subtitle, image, date, lable, description }: Proje
                     <h1 className="text-black font-bold text-2xl">{title}</h1>
                     <h1 className="text-black font-normal text-xl">{subtitle}</h1>
                     <h1 className="text-black font-light text-xl italic">{date}</h1>
-                    <div className="w-full h-24 break-words" style={{ whiteSpace: 'pre-wrap', overflow: 'hidden' }}>
+                    <div className="w-full h-24 break-words text-center" style={{ whiteSpace: 'pre-wrap', overflow: 'hidden' }}>
                         {description}
                     </div>
                     <h1 className="text-black font-normal text-xs">{lable}</h1>
