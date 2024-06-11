@@ -44,32 +44,32 @@ const education: Education[] = [
 
 const experiences: Experience[] = [
   {
-      company: "University of Texas at Dallas",
-      title: "Undergraduate Researcher - Fall 2024",
-      image: "utd.jpg",
-      date: "Sept 2024 - December 2024",
-      location: "Richardson, TX"
-  },
-  {
-      company: "FechAI",
-      title: "Co-Founder",
-      image: "fech2.png",
-      date: "Jan 2024 - May 2024",
-      location: "Dallas, TX"
-  },
-  {
-      company: "Comerica Bank",
-      title: "Cybersecurity Intern",
-      image: "comerica.jpg",
-      date: "May 2023 - August 2023",
-      location: "Auburn Hills, MI"
-  },
-  {
-    company: "Choice Hotels",
-    title: "Software Engineer Intern",
-    image: "choice.jpg",
-    date: "June 2022 - August 2022",
-    location: "Phoenix, AZ"
+    company: "FechAI",
+    title: "Co-Founder",
+    image: "logo.jpg",
+    date: "Jan 2024 - Present",
+    location: "Cambridge, MA"
+},
+{
+    company: "Stanford",
+    title: "Student Instructor",
+    image: "stanford.jpg",
+    date: "April 2024 - May 2024",
+    location: "Stanford, CA"
+},
+{
+    company: "Comerica Bank",
+    title: "Cybersecurity Intern",
+    image: "comerica.jpg",
+    date: "May 2023 - August 2023",
+    location: "Auburn Hills, MI"
+},
+{
+  company: "Choice Hotels",
+  title: "Software Engineer Intern",
+  image: "choice.jpg",
+  date: "June 2022 - August 2022",
+  location: "Phoenix, AZ"
 }
 ]
 
@@ -79,13 +79,13 @@ const projects: Project[] = [
       subtitle: "Mobile Application",
       image: "vigil.png",
       date: "Apr 2024 - Present",
-      description: "Developing an iOS application intended to empower bystanders to live stream videos of police misconduct, cloud caching the videos and using real time location geotagging",
+      description: "iOS application intended to empower bystanders to live-stream videos of police misconduct, utilizing video cloud caching and real time location geotagging",
       lable: ""
       
   },
   {
       title: "Market Momentum",
-      subtitle: "Stock Trader",
+      subtitle: "Python",
       image: "reddit.jpg",
       date: "Dec 2023 - Jan 2024",
       description: "Stock trading algorithm that deploys a paper trading bot using alpaca and reddit api (praw) to analyze sentiments based off r/wallstreetbets comments",
@@ -297,11 +297,23 @@ const Socials = () => {
 }
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="flex flex-col justify-center items-end w-full h-12 bg-black p-12">
-      <h1 className="text-white font-semibold">yash [dot] bardhan09 [at] gmail [dot] com</h1>
+      <button
+          className="justify-center text-white font-semibold"
+          onClick={scrollToTop}
+      >
+        back to top ↑
+        </button>
     </div>
-  )
+  );
 }
 
 export default Ouckah
