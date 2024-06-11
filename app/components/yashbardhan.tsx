@@ -40,11 +40,11 @@ const education: Education[] = [
 
 const experiences: Experience[] = [
     {
-        company: "University of Texas at Dallas",
-        title: "Undergraduate Researcher - Fall 2024",
-        image: "utd.jpg",
-        date: "Sept 2024 - December 2024",
-        location: "Richardson, TX"
+        company: "FechAI",
+        title: "Co-Founder",
+        image: "logo.jpg",
+        date: "Jan 2024 - Present",
+        location: "Cambridge, MA"
     },
     {
         company: "Stanford",
@@ -52,13 +52,6 @@ const experiences: Experience[] = [
         image: "stanford.jpg",
         date: "April 2024 - May 2024",
         location: "Stanford, CA"
-    },
-    {
-        company: "FechAI",
-        title: "Co-Founder",
-        image: "fech2.png",
-        date: "Jan 2024 - May 2024",
-        location: "Dallas, TX"
     },
     {
         company: "Comerica Bank",
@@ -98,7 +91,7 @@ const projects: Project[] = [
         subtitle: "C++",
         image: "drones.jpg",
         date: "Jan 2023 - April 2023",
-        description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization. Optimized drone’s computer vision capabilities using RANSAC tuning",
+        description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization",
         lable: ""
     }
 ]
@@ -264,11 +257,24 @@ const Socials = () => {
 }
 
 const Footer = () => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+  
     return (
-        <div className="flex flex-col justify-center items-end w-full h-12 bg-gray-100 p-12">
-            <h1 className="text-black font-semibold">yash [dot] bardhan09 [at] gmail [dot] com</h1>
-        </div>
-    )
-}
+      <div className="flex flex-col justify-center items-end w-full h-12 bg-grey p-12">
+        <button
+            className="justify-center text-black font-semibold"
+            onClick={scrollToTop}
+        >
+          back to top ↑
+          </button>
+      </div>
+    );
+  }
+  
 
 export default AidanOuckama;
