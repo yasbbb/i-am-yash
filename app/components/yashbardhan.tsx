@@ -47,6 +47,13 @@ const experiences: Experience[] = [
         location: "Richardson, TX"
     },
     {
+        company: "Stanford",
+        title: "Student Instructor",
+        image: "stanford.jpg",
+        date: "April 2024 - May 2024",
+        location: "Stanford, CA"
+    },
+    {
         company: "FechAI",
         title: "Co-Founder",
         image: "fech2.png",
@@ -72,7 +79,7 @@ const experiences: Experience[] = [
 const projects: Project[] = [
     {
         title: "PacmanAI",
-        subtitle: "Interactive Game",
+        subtitle: "Python",
         image: "pacman.png",
         date: "March 2024",
         description: "Rendition of original Pacman game, using Bayesian networks, hidden Markov Models, and search agents",
@@ -88,7 +95,7 @@ const projects: Project[] = [
     },
     {
         title: "Autonomous Drones",
-        subtitle: "Path Planning",
+        subtitle: "C++",
         image: "drones.jpg",
         date: "Jan 2023 - April 2023",
         description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization. Optimized drone’s computer vision capabilities using RANSAC tuning",
