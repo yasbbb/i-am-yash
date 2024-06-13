@@ -75,11 +75,11 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
   {
-      title: "Vigil",
-      subtitle: "Mobile Application",
-      image: "vigil.png",
-      date: "Apr 2024 - Present",
-      description: "iOS application intended to empower bystanders to live-stream videos of police misconduct, utilizing video cloud caching and real time location geotagging",
+      title: "Facial Recognition App",
+      subtitle: "Flask, OpenCV",
+      image: "face.jpg",
+      date: "March 2024 - May 2024",
+      description: "Developed a real-time facial recognition application using OpenCV joined with Flask, capable of recognizing and differentiating up to two simultaneous users with a ~95% accuracy rate",
       lable: ""
       
   },
