@@ -84,7 +84,7 @@ const projects: Project[] = [
       
   },
   {
-      title: "Market Momentum",
+      title: "To The Moon",
       subtitle: "Python",
       image: "reddit.jpg",
       date: "Dec 2023 - Jan 2024",
