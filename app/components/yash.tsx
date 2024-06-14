@@ -4,6 +4,9 @@ import {
   Linkedin,
   Github,
   Mailbox,
+  Paperclip,
+  Youtube,
+  Discord,
 } from "react-bootstrap-icons"
 
 // components
@@ -75,29 +78,33 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
   {
-      title: "Facial Recognition App",
+      title: "Facial Recognition",
       subtitle: "Flask, OpenCV",
-      image: "face.jpg",
+      image: "leburn.jpg",
       date: "March 2024 - May 2024",
-      description: "Developed a real-time facial recognition application using OpenCV joined with Flask, capable of recognizing and differentiating up to two simultaneous users with a ~95% accuracy rate",
-      lable: ""
+      description: "Developed a real-time facial recognition app using OpenCV & Flask, capable of recognizing up to two simultaneous users with a ~95% accuracy rate",
+      lable: "",
+      url: ""
       
   },
   {
       title: "To The Moon",
       subtitle: "Python",
-      image: "reddit.jpg",
+      image: "bets.jpg",
       date: "Dec 2023 - Jan 2024",
       description: "Stock trading algorithm that deploys a paper trading bot using alpaca and reddit api (praw) to analyze sentiments based off r/wallstreetbets comments",
-      lable: ""
+      lable: "",
+      url: ""
+
   },
   {
-      title: "LeNetwork",
-      subtitle: "Neural Network",
-      image: "leburn.jpg",
-      date: "March 2024",
-      description: "Built a recurrent neural network for digit classification using perceptron and linear regression models",
-      lable: "I didnt know what picture to put so instead enjoy 2k14 lebron"
+      title: "Autonomous Drones",
+      subtitle: "C++",
+      image: "drones.jpg",
+      date: "Jan 2023 - April 2023",
+      description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization while optimizing CV capabilities using RANSAC tuning",
+      lable: "",
+      url:""
   }
 ]
 
@@ -183,6 +190,7 @@ const Ouckah = () => {
                           date={project.date}
                           description={project.description}
                           lable={project.lable}
+                          url={project.url}
                       />
                   ))
               }
@@ -275,10 +283,10 @@ const Socials = () => {
     <div className="flex flex-col justify-center items-center w-full h-36 bg-black p-8 gap-5">
       <h1 className="text-white text-4xl font-thin uppercase">socials</h1>
       <div className="flex flex-row justify-evenly items-center w-full h-full gap-3">
-        {/* <SocialIcon
-          url="https://www.youtube.com/watch?v=uHgt8giw1LY&ab_channel=Licale"
-          icon={<Youtube color="white" size={36} />}
-        /> */}
+        <SocialIcon
+          url=""
+          icon={<Discord color="white" size={36} />}
+        />
         <SocialIcon
           url="mailto:yash.bardhan09@gmail.com"
           icon={<Mailbox color="white" size={36} />}
