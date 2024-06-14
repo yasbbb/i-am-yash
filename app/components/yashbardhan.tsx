@@ -1,12 +1,62 @@
 // icons
 import SocialIcon from "./socialicon"
-import { Linkedin, Github, Mailbox } from "react-bootstrap-icons";
+import { Linkedin, Github, Mailbox, Discord, Mailbox2 } from "react-bootstrap-icons";
 
 // components
 import Divider from "./divider"
 import EducationCard from "./educationcard";
 import ExperienceCard from "./experiencecard";
-import ProjectCard from "./projectcard";
+// import ProjectCard from "./projectcard";
+
+interface Metric {
+    title: string
+    value: string
+  }
+  const Metric = ({ title, value }: Metric) => {
+    return (
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <h1
+          className="text-black font-normal text-xs tracking-widest uppercase
+                             md:text-md"
+        >
+          {title}
+        </h1>
+        <p
+          className="text-black font-bold text-xl cursor-pointer transition-all duration-300
+                             md:text-4xl md:hover:text-6xl"
+        >
+          {value}
+        </p>
+      </div>
+    )
+  }
+  
+  const metrics: Metric[] = [
+    {
+      title: "favorite artist",
+      value: "drake",
+    },
+    {
+      title: "favorite athlete",
+      value: "luka doncic",
+    },
+    {
+      title: "favorite sport",
+      value: "ultimate frisbee",
+    },
+    {
+      title: "leetcode problems solved",
+      value: "500k+",
+    },
+    {
+        title: "max bench",
+        value: "225 lbs",
+    },
+    {
+        title: "mile time",
+        value: "5:08",
+    },
+  ]
 
 // types
 import { Education, Experience, Project } from "../types/cards";
@@ -69,32 +119,7 @@ const experiences: Experience[] = [
   }
 ]
 
-const projects: Project[] = [
-    {
-        title: "PacmanAI",
-        subtitle: "Python",
-        image: "pacman.png",
-        date: "March 2024",
-        description: "Rendition of original Pacman game, using Bayesian networks, hidden Markov Models, and search agents",
-        lable: ""
-    },
-    {
-        title: "Apple Stock Data",
-        subtitle: "Stock Performance Analysis",
-        image: "apple.png",
-        date: "March 2023",
-        description: "Developed a stock price prediction analysis of AAPL, GOOG, and MSFT stock from 2015-2023 using forecasting techniques (Holt’s Winter Forecast achieved lowest MAE of 7.57)",
-        lable: ""
-    },
-    {
-        title: "Autonomous Drones",
-        subtitle: "C++",
-        image: "drones.jpg",
-        date: "Jan 2023 - April 2023",
-        description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization",
-        lable: ""
-    }
-]
+
 
 const AidanOuckama = () => {
     return (
@@ -157,33 +182,14 @@ const AidanOuckama = () => {
 
             <Divider /> 
 
-            <div 
-                className="flex flex-col justify-center items-center w-full min-h-screen bg-gray-100 p-8 gap-5
-                           lg:h-screen"
-            >
-              <h1 className="text-black text-4xl font-extralight uppercase">projects</h1>
-
-              <div 
-                className="flex flex-col justify-center items-center w-full h-5/6
-                           lg:grid lg:grid-rows-1 lg:grid-cols-3 "
-              >
-                
-                {
-                    projects.map((project, i) => (
-                        <ProjectCard
-                            key={i}
-                            title={project.title}
-                            subtitle={project.subtitle}
-                            image={project.image}
-                            date={project.date}
-                            description={project.description}
-                            lable={project.lable}
-                        />
-                    ))
-                }
-
-              </div>
-
+            <div className="flex flex-col justify-center items-center w-full h-screen bg-gray-100 p-8 gap-5">
+                <h1 className="text-black text-4xl font-extralight uppercase">about me</h1>
+                <h1 className="text-black text-xl font-bold uppercase">2024</h1>
+                <div className="grid grid-cols-2 justify-center items-center w-full h-full gap-3">
+                    {metrics.map((metric, i) => (
+                        <Metric key={i} title={metric.title} value={metric.value} />
+                    ))}
+                </div>
             </div>
 
             <Divider />
@@ -248,7 +254,8 @@ const Socials = () => {
         <div className="flex flex-col justify-center items-center w-full h-36 bg-gray-100 p-8 gap-5">
             <h1 className="text-black text-4xl font-extralight uppercase">socials</h1>
             <div className="flex flex-row justify-evenly items-center w-full h-full gap-3">
-                <SocialIcon url="mailto:yash.bardhan09@gmail.com" icon={<Mailbox color="black" size={36} />} />
+            <SocialIcon url="" icon={<Discord color="black" size={36} />} />
+                <SocialIcon url="mailto:yash.bardhan09@gmail.com" icon={<Mailbox2 color="black" size={36} />} />
                 <SocialIcon url="https://www.linkedin.com/in/yashbardhan09/" icon={<Linkedin color="black" size={36} />} />
                 <SocialIcon url="https://github.com/yashbbb009" icon={<Github color="black" size={36} />} />
             </div>            
