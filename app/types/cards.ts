@@ -20,6 +20,7 @@ export interface Project {
     date: string, 
     description: string
     lable: string
+    url: string
 }
 
 export interface Subtitle {
