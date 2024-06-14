@@ -1,6 +1,5 @@
 import { time } from "console";
 import { Project } from "../types/cards"
-import Link from "next/link";
 
 
 const ProjectCard = ({ title, subtitle, image, date, lable, description }: Project) => {
