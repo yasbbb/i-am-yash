@@ -1,4 +1,3 @@
-import { time } from "console";
 import { Project } from "../types/cards"
 
 
