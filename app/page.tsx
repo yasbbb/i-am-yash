@@ -19,7 +19,7 @@ export default function Home() {
       <main className={`flex h-screen flex-col items-center justify-between ${yashb ? (primary) : (secondary)} p-24`}>
         <div className="flex flex-row justify-center items-center w-full h-screen gap-5">
           <h1 
-            className={`text-${yashb ? "white" : "black"} text-xl font-bold lowercase select-none
+            className={`text-${yashb ? "white" : "black"} text-xl font-bold uppercase select-none
                         md:text-5xl`}
           >
             i am
@@ -31,7 +31,7 @@ export default function Home() {
               className={yashb ? (selected) : (unselected)}
               onClick={() => setyashb(true)}
             >
-              yash bardhan
+              yash 
             </button>
 
             <button 
