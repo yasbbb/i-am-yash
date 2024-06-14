@@ -83,8 +83,7 @@ const projects: Project[] = [
       image: "leburn.jpg",
       date: "March 2024 - May 2024",
       description: "Developed a real-time facial recognition app using OpenCV & Flask, capable of recognizing up to two simultaneous users with a ~95% accuracy rate",
-      lable: "",
-      url: ""
+      lable: ""
       
   },
   {
@@ -93,8 +92,7 @@ const projects: Project[] = [
       image: "bets.jpg",
       date: "Dec 2023 - Jan 2024",
       description: "Stock trading algorithm that deploys a paper trading bot using alpaca and reddit api (praw) to analyze sentiments based off r/wallstreetbets comments",
-      lable: "",
-      url: ""
+      lable: ""
 
   },
   {
@@ -103,8 +101,7 @@ const projects: Project[] = [
       image: "drones.jpg",
       date: "Jan 2023 - April 2023",
       description: "Modeled a path planning algorithm for autonomous drones using A*, path pruning, & map discretization while optimizing CV capabilities using RANSAC tuning",
-      lable: "",
-      url:""
+      lable: ""
   }
 ]
 
