@@ -92,7 +92,7 @@ const projects: Project[] = [
       subtitle: "C++, Assembly",
       image: "6502.jpg",
       date: "Jan 2024 - April 2024",
-      description: "Emulated the original 6502 Chip to specification, able to visualize running with a text-edit interface and full 64kb memory space",
+      description: "Emulated the original 6502 Chip to specification, capable of running any 6502 assembly program while visualize running w/ a text-edit interface and 64kb memory space",
       lable: "",
       url: ""
 
