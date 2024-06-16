@@ -88,11 +88,11 @@ const projects: Project[] = [
       
   },
   {
-      title: "To The Moon",
-      subtitle: "Python",
-      image: "bets.jpg",
-      date: "Dec 2023 - Jan 2024",
-      description: "Stock trading algorithm that deploys a paper trading bot using alpaca and reddit api (praw) to analyze sentiments based off r/wallstreetbets comments",
+      title: "6502 CPU Emulator",
+      subtitle: "C++, Assembly",
+      image: "6502.jpg",
+      date: "Jan 2024 - April 2024",
+      description: "Emulated the original 6502 Chip to specification, able to visualize running with a text-edit interface and full 64kb memory space",
       lable: "",
       url: ""
 
